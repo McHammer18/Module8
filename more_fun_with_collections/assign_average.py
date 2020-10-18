@@ -1,7 +1,10 @@
 """
+Morgan Christensen
 
+Module 8- program that goes through a dictionary to see if the entry exitsts
+and gives back a message
 
-
+10/17/20
 """
 
 
