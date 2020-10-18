@@ -7,12 +7,13 @@ Module 8- program that finds a persons half birthday after they sumbit a date
 """
 
 
-import datetime
+from datetime import datetime, timedelta
 
 
 def half_birthday(datetime):
-    pass
+    half = datetime + timedelta(days=90)
+    return half
 
 
 if __name__ == '__main__':
-    print((half_birthday()))
+    print("Your half birthday is {}.".format(half_birthday()))

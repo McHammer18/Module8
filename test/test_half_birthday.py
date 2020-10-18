@@ -5,8 +5,9 @@ class MyTestCase(unittest.TestCase):
     def setUp(self):
         self.date = datetime.now()
         self.half = self.date + timedelta(days=90)
+
     def test_half_birthday(self):
-        self.assertEqual(half.half_birthday(self,datetime), self.half)
+        self.assertEqual(half.half_birthday(self.date), self.half)
 
 
 if __name__ == '__main__':
